@@ -21,6 +21,7 @@ local languages = {
 	python = 'python3',
 	javascript = 'node',
 	typescript = 'ts-node',
+	perl = 'perl',
 }
 
 -- start_repl starts a REPL for the current filetype, e.g. a Python file
