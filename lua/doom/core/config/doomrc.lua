@@ -69,6 +69,7 @@ local function default_doomrc_values()
 
 		    -- 'config',      -- Configuration files (JSON, YAML, TOML)
 		    -- 'dockerfile',  -- Do you like containers, right?
+		    -- 'nix +lsp',    -- Nix ist mehr
 	    },
 	    utilities = {
 		    -- 'suda',            -- Write and read files without sudo permissions
