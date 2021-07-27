@@ -1,5 +1,6 @@
 return function()
 	local nvim_lsp = require('lspconfig')
+	require('doom.modules.config.doom-lspinstall-nix')
 
 	--[[-----------------]]
 	--
