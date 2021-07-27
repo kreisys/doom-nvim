@@ -56,6 +56,7 @@ local function default_doomrc_values()
 		    -- 'typescript',  -- TypeScript support
 		    -- 'bash',        -- The terminal gods language
 		    -- 'python +lsp', -- Python support + lsp
+		    -- 'perl +lsp',   -- Sometimes you just don't have a choice
 		    -- 'ruby',        -- Look ma, I love the gems!
 		    'lua',            -- Support for our gods language
 		    -- 'elixir',      -- Build scalable and maintainable software
