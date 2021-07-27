@@ -320,7 +320,11 @@ local nvim = {
 	--   augroup_name = {
 	--      { 'BufNewFile,BufRead', 'doomrc', 'set ft=lua'}
 	--   }
-	autocmds = {},
+	autocmds = {
+	    nix = {
+	        {'BufRead,BufNewFile', '*.nix', 'setf nix'}
+	    }
+	},
 
 	-- Set custom key bindings
 	-- @default = {}
