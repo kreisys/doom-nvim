@@ -321,9 +321,9 @@ local nvim = {
 	--      { 'BufNewFile,BufRead', 'doomrc', 'set ft=lua'}
 	--   }
 	autocmds = {
-	    nix = {
-	        {'BufRead,BufNewFile', '*.nix', 'setf nix'}
-	    }
+		nix = {
+			{ 'BufRead,BufNewFile', '*.nix', 'setf nix' },
+		},
 	},
 
 	-- Set custom key bindings
