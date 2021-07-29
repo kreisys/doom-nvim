@@ -13,10 +13,10 @@
 -- }
 
 return {
-    {
-        'TimUntersberger/neogit',
-        config = function()
-            require('neogit').setup()
-        end,
-    }
+	{
+		'TimUntersberger/neogit',
+		config = function()
+			require('neogit').setup()
+		end,
+	},
 }

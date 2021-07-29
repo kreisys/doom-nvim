@@ -2,7 +2,7 @@ return function()
 	local doomrc = require('doom.core.config.doomrc').load_doomrc()
 	local functions = require('doom.core.functions')
 
-    require('nvim-treesitter.install').compilers = { 'gcc' }
+	require('nvim-treesitter.install').compilers = { 'gcc' }
 
 	local parser_configs =
 		require('nvim-treesitter.parsers').get_parser_configs()
