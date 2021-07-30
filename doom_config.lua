@@ -82,7 +82,7 @@ local doom = {
 	-- false : Disable preservation of last editing position
 	-- true  : Enable preservation of last editing position
 	-- @default = false
-	preserve_edit_pos = false,
+	preserve_edit_pos = true,
 
 	-- horizontal split on creating a new file (<Leader>fn)
 	-- false : doesn't split the window when creating a new file
@@ -129,7 +129,7 @@ local doom = {
 	-- false : spaces
 	-- true  : tabs
 	-- @default = true
-	expand_tabs = true,
+	expand_tabs = false,
 
 	-- Set numbering
 	-- false : Shows absolute number lines
@@ -174,7 +174,7 @@ local doom = {
 
 	-- Default indent size
 	-- @default = 4
-	indent = 4,
+	indent = 2,
 
 	-- Set max cols
 	-- Defines the column to show a vertical marker

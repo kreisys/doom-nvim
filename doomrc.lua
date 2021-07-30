@@ -62,9 +62,11 @@ local doom = {
 		'go +lsp',          -- Hello, gopher
 		'cpp +lsp',         -- C++ support
 		'java +lsp',        -- Java support
+		'perl +lsp',
 
 		'config',           -- Configuration files (JSON, YAML, TOML)
 		'dockerfile +lsp',  -- Do you like containers, right?
+		'nix +lsp',
 	},
 	utilities = {
 		'suda',             -- Write and read files without sudo permissions
