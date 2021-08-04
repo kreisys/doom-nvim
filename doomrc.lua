@@ -66,6 +66,7 @@ local doom = {
 
     -- "config",          -- Configuration files (JSON, YAML, TOML)
     -- "dockerfile",      -- Do you like containers, right?
+    "nix +lsp",
   },
   utilities = {
     -- "suda",            -- Write and read files without sudo permissions
