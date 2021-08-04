@@ -37,7 +37,7 @@ local doom = {
     -- "restclient",      -- A fast Neovim http client
     "formatter",          -- File formatting
     "autopairs",          -- Autopairs
-    -- "editorconfig",    -- EditorConfig support for Neovim
+    "editorconfig",    -- EditorConfig support for Neovim
     "kommentary",         -- Comments plugin
     "lsp",                -- Language Server Protocols
     "dap",                -- Debug Adapter Protocol
@@ -55,7 +55,7 @@ local doom = {
     -- "bash",            -- The terminal gods language
     -- "python +lsp",     -- Python support + lsp
     -- "ruby",            -- Look ma, I love the gems!
-    "lua",                -- Support for our gods language
+    "lua +lsp",           -- Support for our gods language
     -- "elixir",          -- Build scalable and maintainable software
     -- "haskell",         -- Because Functional programming is fun, isn't it?
 
@@ -70,7 +70,7 @@ local doom = {
   utilities = {
     -- "suda",            -- Write and read files without sudo permissions
     -- "lazygit",         -- LazyGit integration for Neovim, requires LazyGit
-    -- "neogit",          -- Magit for Neovim
+    "neogit",          -- Magit for Neovim
     -- "colorizer",       -- Fastest colorizer for Neovim
     "range-highlight",    -- hightlights ranges you have entered in commandline
   },
