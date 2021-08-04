@@ -2,6 +2,9 @@ return function()
   local nvim_lsp = require("lspconfig")
   local lua_lsp = require("lua-dev").setup({})
 
+  require("doom.modules.config.doom-lspinstall-perl")
+  require("doom.modules.config.doom-lspinstall-nix")
+
   -- https://github.com/kabouzeid/nvim-lspinstall#advanced-configuration-recommended
   local function setup_servers()
     -- Provide the missing :LspInstall
